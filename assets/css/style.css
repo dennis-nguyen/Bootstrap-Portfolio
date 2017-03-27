@@ -1,0 +1,205 @@
+body {
+    background-image: url("../images/background.png");
+    margin-bottom: 120px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-color: #777777;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.navbar-default {
+    background-color: white;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+.main {
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-left: 20px;
+    border: solid #dddddd 1px;
+    padding-bottom: 30px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+    padding-top: 15px;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+    color: lightgrey;
+}
+
+.navbar .divider-vertical {
+    height: 20px;
+    margin: 15px 9px;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #f2f2f2;
+}
+
+.navbar-inverse .divider-vertical {
+    border-right-color: #222222;
+    border-left-color: #111111;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+    }
+}
+
+.white {
+    color: white;
+}
+
+.aboutMe {
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+#myPhoto {
+    /*	max-width: 100px;
+	height: auto;*/
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    border-bottom: 3px solid #cccccc;
+    height: 60px;
+    font-weight: bold;
+}
+
+.navbar-right {
+    padding-top: 5px;
+}
+
+.icon {
+    /* height: auto;
+    width: 60px;
+    display: inline-block;	
+    padding-top: 10px;
+    padding-left: 10px;*/
+    /*padding: 0;*/
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom: 2px solid #cccccc;
+    height: 40px;
+    padding-bottom: 30px;
+}
+
+.container {
+    /*width: 960px;*/
+}
+
+.iconGroup {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    background-color: #4aaaa5;
+    color: #999999;
+}
+
+li a {
+   font-size: 14px;
+}
+
+.banner {
+    background-color: #4aaaa5;
+    width: 100%;
+    /*margin-left: 4px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 24px;
+}
+
+.image-responsive {
+	margin: 0;
+	padding-right: 0;
+}
+
+.banner {
+     background-color: #4aaaa5;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    width: 100%;
+}
+
+.thumbnail{
+    position:relative;
+    
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.portImg {
+	position: relative;
+	padding-top: 15px;
+}
