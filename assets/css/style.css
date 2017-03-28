@@ -31,6 +31,14 @@ body {
     padding-bottom: 30px;
 }
 
+.main2 {
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-left: 20px;
+    border: solid #dddddd 1px;
+    padding-bottom: 10px;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -40,7 +48,6 @@ html {
     position: absolute;
     bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
     height: 100px;
     background-color: #666666;
     border-top: 10px solid #4aaaa5;
@@ -59,11 +66,6 @@ html {
     border-left: 1px solid #f2f2f2;
 }
 
-.navbar-inverse .divider-vertical {
-    border-right-color: #222222;
-    border-left-color: #111111;
-}
-
 @media (max-width: 767px) {
     .navbar-collapse .nav > .divider-vertical {
         display: none;
@@ -80,8 +82,6 @@ html {
 }
 
 #myPhoto {
-    /*	max-width: 100px;
-	height: auto;*/
     padding-top: 20px;
     padding-right: 10px;
 }
@@ -100,12 +100,6 @@ h1 {
 }
 
 .icon {
-    /* height: auto;
-    width: 60px;
-    display: inline-block;	
-    padding-top: 10px;
-    padding-left: 10px;*/
-    /*padding: 0;*/
     padding: 0;
     padding-bottom: 20px;
     margin: 0 auto;
@@ -137,13 +131,12 @@ h2 {
 }
 
 li a {
-   font-size: 14px;
+    font-size: 14px;
 }
 
 .banner {
     background-color: #4aaaa5;
     width: 100%;
-    /*margin-left: 4px;*/
     padding-top: 20px;
     padding-bottom: 20px;
     position: absolute;
@@ -156,12 +149,12 @@ li a {
 }
 
 .image-responsive {
-	margin: 0;
-	padding-right: 0;
+    margin: 0;
+    padding-right: 0;
 }
 
 .banner {
-     background-color: #4aaaa5;
+    background-color: #4aaaa5;
     text-align: center;
     padding: 5px;
     margin-bottom: 20px;
@@ -171,11 +164,9 @@ li a {
     width: 100%;
 }
 
-.thumbnail{
-    position:relative;
-    
+.thumbnail {
+    position: relative;
 }
-
 
 input[type=text],
 select,
@@ -200,6 +191,6 @@ input[type=submit] {
 }
 
 .portImg {
-	position: relative;
-	padding-top: 15px;
+    position: relative;
+    padding-top: 15px;
 }
